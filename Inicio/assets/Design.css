@@ -1,0 +1,144 @@
+body{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    box-sizing: border-box;
+    
+    }
+
+/*Header*/
+.App-Title{
+    margin: auto;
+    margin-top: 10px;
+    padding: 5px;
+    }
+
+/*Links*/
+a{
+    text-decoration: none;
+    color: black;
+    }
+
+a:hover{
+    color: cornflowerblue;
+    }
+
+/*Title-General*/
+h1{
+    margin: auto;
+    margin-bottom: 15px;
+    font-family: 'Fredoka One', cursive;
+    color: rgb(26, 36, 80);
+    box-shadow: ;
+    }
+
+    /*Form*/
+form{
+    border: 1px solid rgb(112, 112, 112,0.5);
+    width: 300px;
+    margin: auto;
+    margin-top:30px;
+    }
+    /*Degradado LOGIN*/
+.Login-form{
+    position:relative;
+    background-color: white;
+}
+.Login-form::after{
+    position:absolute;  
+    top:0px;
+    left:0px ;
+    width: 306px;
+    height:242px;
+    margin-top: -1px;
+    margin-left: -4px;
+    content: '';
+    background: #c31432;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #240b36, #c31432);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #240b36, #c31432); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    filter:blur(8px);
+    z-index:-1;
+}
+/*Degradado Sign Up*/
+.sign-form{
+    position: relative;
+    background-color: white; 
+}
+.sign-form::after{
+    position:absolute;  
+    top:0px;
+    left:0px ;
+    width: 306px;
+    height: 408px;
+    margin-top: -4px;
+    margin-left: -4px;
+    content: '';
+    background: #c31432;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #240b36, #c31432);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #240b36, #c31432); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    filter:blur(8px);
+    z-index:-1;
+}
+
+/*Form-Primeras casillas*/
+.check-gmail{
+    margin-top: 35px;
+}
+
+.check-name{
+    margin-top: 35px;
+}
+
+input{
+    outline: none;
+    width: 75%;
+    margin: auto;
+    margin-top: 15px;
+    padding:10px;
+    display: block;
+    border:1px solid rgb(100, 100, 100,.4);
+    border-radius: 5px;
+    }
+    /*Enlaces Login-Sign Up*/
+.link-login{
+    width: 150px;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 12px;
+    text-align: left;
+    }
+
+.link-Sign{
+    width: 150px;
+    margin: auto;
+    margin-top: 13px;
+    margin-bottom: 10px;
+    text-align: left;
+    font-size: 12px;
+}
+/*Boton*/
+.login{
+    width:50%;
+    margin: auto;
+    margin-bottom: 30px;
+    color: cornsilk;
+    font-size: 13px;
+    font-family: 'Fredoka One', cursive;
+    background-color: rgb(53, 86, 126);;
+}
+.login:hover{
+    background-color:rgb(235, 120, 120);
+}
+.Sign{
+    width:50%;
+    margin: auto;
+    margin-bottom: 35px;
+    color: cornsilk;
+    font-size: 13px;
+    font-family: 'Fredoka One', cursive;
+    background-color: rgb(53, 86, 126);
+}
+.Sign:hover{
+    background-color:rgb(235, 120, 120);
+}
